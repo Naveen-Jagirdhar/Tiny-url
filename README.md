@@ -28,11 +28,31 @@ A lightweight, scalable URL shortening service built with **Spring Boot** and **
 
 ## 🔧 APIs
 
-### 1. 📩 `POST /shorten`
+### 1. 📩 `POST /api/v1/short-url`
 Shortens a long URL.
 
 #### Request
 ```json
 {
-  "longUrl": "https://example.com/my-blog-post"
+  "longURL": "https://example.com/my-blog-post"
 }
+```
+
+#### Response
+```json
+{
+    "shortURL": "localhost:8080/api/v1/short-url/nNcQ3Z"
+}
+```
+
+### `GET /api/v1/short-url/{shortCode}`
+Redirects to the original URL.
+
+#### Request
+```
+localhost:8080/api/v1/short-url/nNcQ3
+```
+Redirects to
+```
+https://example.com/my-blog-post
+```
