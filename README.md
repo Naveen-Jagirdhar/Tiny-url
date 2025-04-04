@@ -45,7 +45,7 @@ Shortens a long URL.
 }
 ```
 
-### `GET /api/v1/short-url/{shortCode}`
+### 2.`GET /api/v1/short-url/{shortCode}`
 Redirects to the original URL.
 
 #### Request
