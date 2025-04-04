@@ -34,7 +34,7 @@ Shortens a long URL.
 #### Request
 ```json
 {
-  "longURL": "https://example.com/my-blog-post"
+  "longURL": "https://github.com/Naveen-Jagirdhar/book-my-show/tree/master/src/main/java/com/learnings/bookmyshow/enums"
 }
 ```
 
@@ -54,5 +54,5 @@ localhost:8080/api/v1/short-url/nNcQ3
 ```
 Redirects to
 ```
-https://example.com/my-blog-post
+https://github.com/Naveen-Jagirdhar/book-my-show/tree/master/src/main/java/com/learnings/bookmyshow/enums
 ```
